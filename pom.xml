@@ -6,14 +6,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.leetcode</groupId>
-  <artifactId>java-algorithms-learning-lab</artifactId>
+  <artifactId>algorithms-learning-lab</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>java-algorithms-learning-lab</name>
+  <name>algorithms-learning-lab</name>
   <description>
-    A structured collection of Java solutions to LeetCode problems organized by
-    difficulty, covering core data structures and algorithms concepts.
+    A multi-language repository for practicing algorithm and data-structure
+    problems, currently containing Java solutions with space reserved for Python.
   </description>
 
   <properties>
@@ -35,7 +35,7 @@
   </dependencies>
 
   <build>
-    <!-- Source lives under src/main/java (Maven standard layout) -->
+    <!-- Java build metadata is retained even though the repository layout is now language-first. -->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
